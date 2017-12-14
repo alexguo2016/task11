@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #eee; }
+  body button {
+    color: white;
+    font-size: 5vw;
+    background-color: #5fc0cd;
+    outline: none;
+    border: none; }
+  body input {
+    font-size: 4vw;
+    outline: none;
+    border: none;
+    border-left: 1px solid #ddd;
+    padding-left: 3vw; }
+  body img {
+    vertical-align: middle;
+    margin-right: 3vw; }
+  body .header {
+    color: white;
+    background-color: #5fc0cd;
+    font-size: 6vw;
+    height: 10vw;
+    display: flex;
+    justify-content: space-between; }
+    body .header .register {
+      margin-left: 6vw; }
+    body .header .title {
+      line-height: 11vw; }
+    body .header .close {
+      margin-right: 6vw; }
+  body .telrow {
+    background-color: white;
+    margin-top: 3vw;
+    padding: 1vw 0 1vw 6vw;
+    display: flex; }
+  body .passrow {
+    background-color: white;
+    margin: 3vw auto;
+    padding: 1vw 0 1vw 6vw;
+    display: flex; }
+  body .logbtn {
+    background-color: #5fc0cd;
+    text-align: center; }
+    body .logbtn button {
+      margin: 2vw auto; }
+  body .refind {
+    float: right;
+    margin-right: 6vw;
+    color: #5fc0cd;
+    text-decoration: none;
+    font-size: 4vw; }
+
+/*# sourceMappingURL=Task11.css.map */

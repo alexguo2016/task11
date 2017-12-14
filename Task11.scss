@@ -1,0 +1,72 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:#eee;
+	button{
+		color:white;
+		font-size:5vw;
+		background-color:rgb(95,192,205);
+		outline:none;
+		border:none;
+	}
+	input{
+		font-size:4vw;
+		outline:none;
+		border:none;
+		border-left:1px solid #ddd;
+		padding-left:3vw;
+
+	}
+	img{
+		vertical-align:middle;
+		margin-right:3vw;
+	}
+	.header{
+		color:white;
+		background-color:rgb(95,192,205);
+		font-size:6vw;
+		height:10vw;
+		display:flex;
+		justify-content:space-between;
+		
+		.register{
+			margin-left:6vw;
+		}
+		.title{
+			line-height:11vw;
+		}
+		.close{
+			margin-right:6vw;
+		}
+	}
+	.telrow{
+		background-color:white;
+		margin-top:3vw;
+		padding:1vw 0 1vw 6vw;
+		display:flex;
+		
+	}
+	.passrow{
+		background-color:white;
+		margin:3vw auto;
+		padding:1vw 0 1vw 6vw;
+		display:flex;
+		
+	}
+	.logbtn{
+		background-color:rgb(95,192,205);
+		text-align:center;
+		button{
+			margin:2vw auto;
+		}
+	}
+	.refind{
+		float:right;
+		margin-right:6vw;
+		color:rgb(95,192,205);
+		text-decoration:none;
+		font-size:4vw;
+	}
+}
